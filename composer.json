@@ -1,0 +1,28 @@
+{
+    "name": "sgiberne/databse-tools",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Stéphane GIBERNE",
+            "email": "stephane.giberne@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "ext-pdo": "*",
+        "symfony/console": "^5.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.4"
+    },
+    "autoload" : {
+      "psr-4" : {
+        "Sgiberne\\DatabaseTools\\": "src"
+      }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Sgiberne\\DatabaseTools\\Tests\\": "tests/"
+        }
+    }
+}
