@@ -30,5 +30,5 @@ abstract class AbstractDatabaseOperator
     abstract public function createDatabase(string $databaseName): void;
     abstract public function dropDatabase(string $databaseName): void;
     abstract public function executeSql(string $sql): void;
-
+    abstract public function useDatabase(string $databaseName): void;
 }

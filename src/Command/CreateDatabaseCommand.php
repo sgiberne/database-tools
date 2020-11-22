@@ -8,7 +8,7 @@ use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 
-class CreateDatabaseCommand extends Command
+final class CreateDatabaseCommand extends Command
 {
     protected static $defaultName = 'sgiberne:database:create';
 

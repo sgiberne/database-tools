@@ -8,7 +8,7 @@ use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 
-class DropDatabaseCommand extends Command
+final class DropDatabaseCommand extends Command
 {
     protected static $defaultName = 'sgiberne:database:drop';
 
